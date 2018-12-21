@@ -1,0 +1,17 @@
+@mixin circle($width, $color) {
+  $randomWidthHeight: random($width) + 70px;
+  $randomLeft: random(200 - $randomWidthHeight) + px;
+  position: relative;
+  display: inline-block;
+  left: $randomLeft;
+  width: $randomWidthHeight;
+  height: $randomWidthHeight;
+  background: $color;
+  border-radius: $randomWidthHeight/2;
+}
+
+@mixin elementContainer() {
+position: relative;
+flex: 0 0 200px;
+height: 200px;
+}

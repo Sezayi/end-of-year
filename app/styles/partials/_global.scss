@@ -1,0 +1,23 @@
+.slide {
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+}
+
+.description {
+  flex: 6;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.visual {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+}
+  
+.visual, .description {
+    padding: 1em;
+}
