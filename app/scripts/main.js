@@ -31,7 +31,7 @@ function plusDivs(n) {
 
 setInterval(function() {
   plusDivs(1);
-}, 10000);
+}, 20000);
 
 function showDivs(n) {
   var i;
