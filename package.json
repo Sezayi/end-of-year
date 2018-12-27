@@ -4,9 +4,25 @@
     "node": ">=4"
   },
   "scripts": {
-    "start": "gulp serve"
+    "start": "node app",
+    "postinstall": "gulp default"
   },
-  "devDependencies": {
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true,
+      "jquery": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  },
+  "dependencies": {
+    "bower": "^1.8.4",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.5.2",
@@ -32,22 +48,5 @@
     "main-bower-files": "^2.5.0",
     "run-sequence": "^1.2.2",
     "wiredep": "^4.0.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "es6": true,
-      "node": true,
-      "browser": true,
-      "jquery": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
-    }
-  },
-  "dependencies": {
-    "bower": "^1.8.4"
   }
 }
