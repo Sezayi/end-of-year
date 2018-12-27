@@ -1,2 +1,2 @@
-# core-values
-Web app which makes core values visible
+# end-of-year
+Web app which makes end of year results visible
