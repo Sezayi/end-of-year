@@ -31,7 +31,7 @@ function plusDivs(n) {
 
 setInterval(function() {
   plusDivs(1);
-}, 150000);
+}, 4000);
 
 function showDivs(n) {
   var i;
@@ -99,4 +99,4 @@ var buildCircles = function() {
   }
 };
 
-buildCircles();
+// buildCircles();
