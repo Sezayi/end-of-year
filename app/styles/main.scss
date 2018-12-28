@@ -30,6 +30,7 @@ body {
   flex-flow: wrap;
   height: 100%;
   width: 100%;
+  z-index: -1;
 }
 
 .element-container {
@@ -50,3 +51,4 @@ body {
 .value-image-2 {
   width: 500px;
 }
+
