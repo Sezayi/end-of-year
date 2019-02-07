@@ -20,6 +20,30 @@ var colors = [
   {
     color: '#DA202C',
   },
+  {
+    color: '#3c96dc',
+  },
+  {
+    color: '#281e50',
+  },
+  {
+    color: '#64A03C',
+  },
+  {
+    color: '#FAB614',
+  },
+  {
+    color: '#DA202C',
+  },
+  {
+    color: '#3c96dc',
+  },
+  {
+    color: '#281e50',
+  },
+  {
+    color: '#64A03C',
+  }
 ];
 
 var slideIndex = 1;
